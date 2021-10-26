@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    imagename = "viriritt/docker-jenkins"
+    imagename = "viriritt/ace-docker"
     registryCredential = 'viriritt'
     dockerImage = ''
   }
